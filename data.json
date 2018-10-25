@@ -3,47 +3,74 @@
       {
         "id": 1,
         "name": "Chris",
-        "image": "/images/chris.jpg"
+        "image": "/images/chris.jpg",
+        "feedback": [
+          {"1": ""}
+        ]
       },
       {
         "id": 2,
         "name": "Maya",
-        "image": "/images/maya.jpg"
+        "image": "/images/maya.jpg",
+        "feedback": [
+          {"1": ""}
+        ]
       },
       {
         "id": 3,
         "name": "Alina",
-        "image": "/images/alina.jpg"
+        "image": "/images/alina.jpg",
+        "feedback": [
+          {"1": ""}
+        ]
       },
       {
         "id": 4,
         "name": "Kiri",
-        "image": "/images/kiri.jpg"
+        "image": "/images/kiri.jpg",
+        "feedback": [
+          {"1": ""}
+        ]
       },
       {
         "id": 5,
         "name": "Dani",
-        "image": "/images/dani.png"
+        "image": "/images/dani.png",
+        "feedback": [
+          {"1": ""}
+        ]
       },
       {
         "id": 6,
         "name": "Carel",
-        "image": "/images/carel.jpg"
+        "image": "/images/carel.jpg",
+        "feedback": [
+          {"1": ""}
+        ]
       },
       {
         "id": 7,
         "name": "Jeremy",
-        "image": "/images/jeremy.png"
+        "image": "/images/jeremy.png",
+        "feedback": [
+          {"1": ""}
+        ]
       },
       {
         "id": 8,
         "name": "Allie",
-        "image": "/images/allie.png"
+        "image": "/images/allie.png",
+        "feedback": [
+          {"1": ""}
+        ]
       },
       {
         "id": 9,
         "name": "Bryce",
-        "image": "/images/bryce.png"
+        "image": "/images/bryce.png",
+        "feedback": [
+          {"1": ""}
+        ]
       }
     ]
   }
