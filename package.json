@@ -1,17 +1,23 @@
 {
   "devDependencies": {
+    "jest": "^23.6.0",
     "nodemon": "^1.18.4"
   },
   "dependencies": {
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0"
   },
-  "name": "y",
-  "version": "y",
-  "description": "y",
-  "main": "y",
+  "name": "ask",
+  "version": "1.0.1",
+  "description": "first group work to develop ASK feedback app ",
+  "main": "index.js",
   "repository": "y",
-  "author": "y",
+  "author": "Chris Kiri Alina Maya",
   "license": "y",
-  "private": true
+  "private": true,
+  "scripts": {
+    "debug" : "nodemon index.js",
+    "test" : "jest --watchAll --noStackTrace",
+    "start" : "node index"
+  }
 }
