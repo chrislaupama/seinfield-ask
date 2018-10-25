@@ -13,10 +13,6 @@ server.get('/', (req, res) => {
 })
 
 server.get('/ask', (req, res) => {
-  res.render('ask', data) 
+  console.log('Hitting /ask')
+  res.render('./ask', data)
 })
-
-server.get('/ask', (req, res) => {
-  res.render('ask', data) 
-}
-

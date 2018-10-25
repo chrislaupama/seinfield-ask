@@ -2,8 +2,7 @@ var express = require('express')
 var hbs = require('express-handlebars')
 var routes = require('./routes')
 var server = express()
-
-module.exports = server
+const data = require('./data')
 
 // Middleware
 server.engine('hbs', hbs({
@@ -14,3 +13,5 @@ server.set('view engine', 'hbs')
 server.use(express.static('public'))
 server.use(express.urlencoded({ extended: false }))
 server.use('/', routes)
+
+module.exports = server
