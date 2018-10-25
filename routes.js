@@ -8,15 +8,38 @@ const fs = require('fs')
 
 module.exports = router
 
-server.get('/', (req, res) => {
-  res.render('home', data)
+// MAIN ROOT
+router.get('/', (req, res) => {
+  res.render('./students/index', data)
 })
 
-server.get('/ask', (req, res) => {
-  res.render('ask', data) 
+// STUDENT PROFILE
+router.get('/students/:id', (req, res) => {
+  const id = parseInt(req.params.id, 10)
+  let array = Array.from(data.students)
+  let student = array.find(function (students) {
+    return id === students.id
+  })
+  res.render('./students/profile', student)
 })
 
-server.get('/ask', (req, res) => {
-  res.render('ask', data) 
-}
+// ASK ROUTE
+router.get('/ask', (req, res) => {
+  res.render('./students/ask', data)
+})
+
+
+// ASK SUBMIT FORM
+router.post('/ask', (req, res) => {
+  let inputId = Number(req.body.id)
+  let inputFeedback = req.body.feedback
+  const student = data.students.find(student => student.id === inputId)
+  data.students[inputId - 1] = student
+  student.feedback = inputFeedback
+  fs.writeFile('./data.json', JSON.stringify(data), (err) => {
+    // eslint-disable-next-line no-console
+    if (err) { console.error(err) }
+  })
+  res.redirect('/students/' + inputId)
+})
 

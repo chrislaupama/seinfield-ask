@@ -16,8 +16,8 @@
   "license": "y",
   "private": true,
   "scripts": {
-    "debug" : "nodemon index.js",
-    "test" : "jest --watchAll --noStackTrace",
-    "start" : "node index"
+    "debug": "nodemon index.js",
+    "test": "jest --watchAll --noStackTrace",
+    "start": "node index"
   }
 }

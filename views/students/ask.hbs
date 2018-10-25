@@ -1,0 +1,36 @@
+  <div class="container">
+    <h3>
+      ASK DEFINITION
+    </h3>
+    <br>
+      <p>Definition...</p>
+  </div>
+
+  <div class="container">
+    <form class="form" action="/ask/{{id}}" method="post">
+    <label>
+      Enter your feedback here:
+      <input type="text" name="feedback">
+    </label>
+    
+    <label for="checks">
+      Is it actionable?
+      <input id="actionable" type="checkbox" name="actioble" value="1">
+      Is it specific?
+      <input id="specific" type="checkbox" name="specific" value="1">
+      Is it kind?
+      <input id="kind" type="checkbox" name="kind" value="1">
+    </label>
+    
+    <label>
+      Which student would you like to send feedback to?
+      <select name="id">
+        {{#each students}}
+        <option value={{id}}>{{name}}</option>
+        {{/each}}
+      </select>
+    </label>
+    
+    <input type="submit" name="" value="Submit">
+    </form>
+  </div>
