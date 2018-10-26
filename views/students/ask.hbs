@@ -1,43 +1,38 @@
-  <div class="container">
-    <h3>
-      ASK DEFINITION
-    </h3>
-    <br>
-      <p>ACTIONABLE, SPECIFIC, KIND
-      Do you have an action you can share with your pair that will help them to grow in their dev journey?<br>
-      How will this action help them?
-      It's important to be clear, concise and use concrete examples to show what action you are reffering to.
+    <div class="definition">
+    <h3 class="profileName">ASK DEFINITION</h3>
+    <h3>ACTIONABLE, SPECIFIC, KIND</h3>
+      <p> Do you have an action you can share with your pair that will help them to grow in their dev journey?<br>
+      How will this action help them?<br>
+      It's important to be clear, concise and use concrete examples to show what action you are reffering to.<br>
       Most importantly, how would you feel if you recieved this feedback?<br>
-      Is your feedback kind to your pair's feelings and integrity?
-      Is your feedback kind to your pair's learning and progress?
-      </b></p>
-  </div>
+      Is your feedback kind to your pair's feelings and integrity?<br>
+      Is your feedback kind to your pair's learning and progress?</p>
+    </div>
 
-  <div class="container">
+<br>
+
     <form class="form" action="/ask/{{id}}" method="post">
-    <label>
-      Enter your feedback here:
-      <input type="text" name="feedback">
-    </label>
-    
-    <label for="checks">
-      Is it actionable?
-      <input id="actionable" type="checkbox" name="actioble" value="1">
-      Is it specific?
-      <input id="specific" type="checkbox" name="specific" value="1">
-      Is it kind?
-      <input id="kind" type="checkbox" name="kind" value="1">
-    </label>
-    
-    <label>
-      Which student would you like to send feedback to?
-      <select name="id">
-        {{#each students}}
-        <option value={{id}}>{{name}}</option>
-        {{/each}}
-      </select>
-    </label>
-    
-    <input type="submit" name="" value="Submit">
+      <label>
+        <input type="text" name="feedback" style="height: 200px; width: 400px" placeholder="Enter your feedback here...">
+      </label>
+      <br>
+      <label for="checks">
+        Is it actionable?
+        <input id="actionable" type="checkbox" name="actioble" value="1">
+        Is it specific?
+        <input id="specific" type="checkbox" name="specific" value="1">
+        Is it kind?
+        <input id="kind" type="checkbox" name="kind" value="1">
+      </label>
+      
+      <label>
+        Which student would you like to send feedback to?
+        <select name="id">
+          {{#each students}}
+          <option value={{id}}>{{name}}</option>
+          {{/each}}
+        </select>
+      </label>
+      <br>
+      <input type="submit" value="Submit">
     </form>
-  </div>
