@@ -1,1 +1,76 @@
-{"students":[{"id":1,"name":"Chris","image":"/images/chris.jpeg","feedback":"Hola braaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaav","_locals":{},"sender":"Bryce"},{"id":2,"name":"Maya","image":"/images/maya.jpeg","feedback":"ccxcxcxcxcxcxcxcxc","_locals":{},"sender":"Kiri"},{"id":3,"name":"Alina","image":"/images/alina.jpeg","feedback":"","_locals":{}},{"id":4,"name":"Kiri","image":"/images/kiri.jpeg","_locals":{},"feedback":"test","sender":"Chris"},{"id":5,"name":"Dani","image":"/images/dani.jpeg","feedback":"testing 123","_locals":{},"sender":"Allie"},{"id":6,"name":"Carel","image":"/images/carel.jpeg","feedback":"gmgmgmgmgm","_locals":{},"sender":"Maya"},{"id":7,"name":"Jeremy","image":"/images/jeremy.png","feedback":"Hi there, testing...","sender":"4","_locals":{}},{"id":8,"name":"Allie","image":"/images/allie.jpeg","feedback":"cxcxcxcxcxcxcxcxcxcxcxcxcxcx","_locals":{},"sender":"Chris"},{"id":9,"name":"Bryce","image":"/images/bryce.png","feedback":"Does this work?","_locals":{},"sender":"Jeremy"}],"_locals":{}}
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Chris",
+      "image": "/images/chris.jpeg",
+      "feedback": "Hola braaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaav",
+      "_locals": {},
+      "sender": "Bryce"
+    },
+    {
+      "id": 2,
+      "name": "Maya",
+      "image": "/images/maya.jpeg",
+      "feedback": "ccxcxcxcxcxcxcxcxc",
+      "_locals": {},
+      "sender": "Kiri"
+    },
+    {
+      "id": 3,
+      "name": "Alina",
+      "image": "/images/alina.jpeg",
+      "feedback": "",
+      "_locals": {}
+    },
+    {
+      "id": 4,
+      "name": "Kiri",
+      "image": "/images/kiri.jpeg",
+      "_locals": {},
+      "feedback": "test",
+      "sender": "Chris"
+    },
+    {
+      "id": 5,
+      "name": "Dani",
+      "image": "/images/dani.jpeg",
+      "feedback": "testing 123",
+      "_locals": {},
+      "sender": "Allie"
+    },
+    {
+      "id": 6,
+      "name": "Carel",
+      "image": "/images/carel.jpeg",
+      "feedback": "gmgmgmgmgm",
+      "_locals": {},
+      "sender": "Maya"
+    },
+    {
+      "id": 7,
+      "name": "Jeremy",
+      "image": "/images/jeremy.png",
+      "feedback": "Hi there, testing...",
+      "sender": "4",
+      "_locals": {}
+    },
+    {
+      "id": 8,
+      "name": "Allie",
+      "image": "/images/allie.jpeg",
+      "feedback": "cxcxcxcxcxcxcxcxcxcxcxcxcxcx",
+      "_locals": {},
+      "sender": "Chris"
+    },
+    {
+      "id": 9,
+      "name": "Bryce",
+      "image": "/images/bryce.png",
+      "feedback": "Does this work?",
+      "_locals": {},
+      "sender": "Jeremy"
+    }
+  ],
+  "_locals": {}
+}
